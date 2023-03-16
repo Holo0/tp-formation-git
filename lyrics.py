@@ -1,5 +1,5 @@
 def sing() -> list[str]:
-    return first_verse + second_verse
+    return first_verse() + second_verse()
 
 def first_verse() -> list[str]:
     return [
